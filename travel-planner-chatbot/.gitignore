@@ -1,0 +1,30 @@
+# Environment variables and API keys
+.env
+*.env
+!.env.example
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit secrets and local runtime data
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Generated test export files
+*.pdf
+*.txt
+scratch/
+
+# Operating system files
+.DS_Store
+Thumbs.db
